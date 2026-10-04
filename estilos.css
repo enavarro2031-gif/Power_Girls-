@@ -1,0 +1,236 @@
+/* ==================================================
+   POWER GIRLS RUMBA TERAPIA
+   ESTILOS GENERALES
+   ================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+}
+
+/* ---------- CONTENEDOR PRINCIPAL ---------- */
+
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+/* ---------- CAJA PRINCIPAL ---------- */
+
+.login-box {
+    width: 100%;
+    max-width: 430px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- TÍTULOS ---------- */
+
+.login-box h1 {
+    margin: 0 0 10px 0;
+    text-align: center;
+    color: #f14383;
+    font-size: 30px;
+}
+
+.login-box h2 {
+    margin: 0 0 25px 0;
+    text-align: center;
+    color: #222222;
+    font-size: 24px;
+}
+
+.login-box h3 {
+    margin-top: 20px;
+    text-align: center;
+    color: #222222;
+}
+
+/* ---------- LOGO ---------- */
+
+
+
+/* ---------- FORMULARIOS ---------- */
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* ---------- ETIQUETAS ---------- */
+
+.login-box label {
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* ---------- CAMPOS ---------- */
+
+.login-box input {
+    display: block;
+    width: 100%;
+    padding: 11px;
+    margin: 0;
+    border: 1px solid #bbbbbb;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #222222;
+    font-size: 15px;
+}
+
+/* ---------- BOTONES ---------- */
+
+.login-box button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #f14383;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #f14383;
+}
+
+/* ---------- ENLACES ---------- */
+
+.login-box a {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: #f14383;
+    text-decoration: none;
+}
+
+.login-box a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- TEXTOS ---------- */
+
+.login-box p {
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+/* ---------- ENCABEZADO DE PANTALLAS INTERNAS ---------- */
+
+.encabezado-pantalla {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.encabezado-pantalla button {
+    width: auto;
+    margin: 0;
+    padding: 8px 12px;
+}
+
+.encabezado-pantalla .logo {
+    width: 80px;
+    height: auto;
+    margin: 0;
+}
+
+/* ---------- TABLAS ---------- */
+
+.login-box table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.login-box th,
+.login-box td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+
+.login-box th {
+    background-color: #f14383;
+    color: #ffffff;
+}
+
+/* ---------- ADAPTACIÓN PARA CELULARES ---------- */
+
+@media (max-width: 500px) {
+
+    .login-container {
+        padding: 15px;
+    }
+
+    .login-box {
+        padding: 20px;
+    }
+
+    .login-box h1 {
+        font-size: 26px;
+    }
+
+    .login-box h2 {
+        font-size: 21px;
+    }
+
+    .encabezado-pantalla {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .encabezado-pantalla button {
+        width: 100%;
+    }
+
+    .encabezado-pantalla .logo {
+        width: 90px;
+    }
+
+    .login-box table {
+        font-size: 12px;
+    }
+
+    .login-box th,
+    .login-box td {
+        padding: 7px 4px;
+    }
+}
+
+.logo {
+    display: block;
+    width: 120px;
+    height: auto;
+    margin: 10px auto 20px auto;
+}
+
+
+
